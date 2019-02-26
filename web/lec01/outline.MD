@@ -54,3 +54,70 @@ by ZHAO Jing
 - FCC介绍
 - 菜鸟网
 - AOJ FCC2019春季培训班
+
+##案例和源码
+##百度模仿（纯前端 HTML+JS)
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下,你就知道</title>
+</head>
+<body>
+<script type="text/javascript">
+    function run() {
+        var kd = f01.keyword.value;
+        alert(f01.keyword.value);
+        window.open('https://www.baidu.com/s?wd=' + kd)
+    }
+</script>
+<center>
+    <div>
+        <img src="https://www.baidu.com/img/bd_logo1.png"/>
+    </div>
+    <p>&nbsp
+    <p>&nbsp
+
+    <div>
+        <form name="f01">
+            <input type="text" name="keyword"/>
+            <input type="submit" value='百度一下' onclick="run()"/>
+        </form>
+    </div>
+    <p>&nbsp
+    <p>&nbsp
+    <p>&nbsp
+    <p>&nbsp
+    <p>&nbsp
+
+    <div>
+        Develop by zj@ahstu.edu.cn
+    </div>
+</center>
+</body>
+
+</html>
+```
+
+## 百度模仿2(JSP工作模式)
+- 纯HTML表单 baidu.html
+```HTML
+<div>
+	<form name="f01" action="baidu.jsp">
+		<input type="text" name="keyword" />
+		<input type="submit" value='百度一下' " />
+	</form>
+	</div>
+```
+- 后台处理JSP页 baidu.jsp
+```HTML
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<%
+String keyword=request.getParameter("keyword");
+response.sendRedirect("https://www.baidu.com/s?wd="+keyword);
+%>
+
+```
