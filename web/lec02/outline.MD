@@ -8,7 +8,10 @@ by ZHAO Jing
 ### Linux shell:
 - pwd 用户当前的路径
 - ls/cd/mkdir
-- rm 
+- rm / mv 
+```
+rm -rf *
+```
 - cat/more
 - man 
 
