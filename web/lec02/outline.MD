@@ -28,8 +28,15 @@ rm -rf *
 - HTML5
 
 ## CSS/CSS3
-- CSS 
-- 盒子模型
+### CSS选择器 
+- 标签选择器
+- 类选择器
+- id选择器
+
+### 盒子模型
+- margin
+- padding
+
 
 ## 响应式Web开发：BootStrap库
 - Web开发
