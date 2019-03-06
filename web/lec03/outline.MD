@@ -51,8 +51,39 @@ a +=2;//a = 7;
 var ret = "7" == 7;// ret = true; == ！= 判断过程中会发生类型转换
 var ret = "7" === 7 ;// ret = false; === !== 判断过程中不会发生类型转换
 ```
+## 函数
+- 显式1
+```javascript
+function add(a,b){
+	return a+b;
+}
+console.log(add(3,4));//7
+console.log(add("hello"," world"));//"hello world"
+console.log(add(1+"3"));//"13"
+```
+- 显式2
+
+```javascript
+
+var add=function(a,b){
+    return a+b;
+};
+
+```
+
+- 匿名函数
+
+```javascript
+
+console.log(function(a,b){return a+b;}(3,4))
+```
+
+
+
+
 
 ## 数组（每个元素的类型可以不同）
+
 - 索引访问 例如 ```var arr = [1,2,3]; arr[i];```
 - 本质是hash表(键可以散列即可如数字，字符串)
 
