@@ -16,8 +16,8 @@
 - Concatenate Arrays with .concat
 - Split Strings with .split
 - Join Strings with .join
-## Regular Expression
--正则表达式（英语：Regular Expression，在代码中常简写为regex、regexp或RE）使用单个字符串来描述、匹配一系列符合某个句法规则的字符串搜索模式。
+## Regular str.Expression
+-正则表达式（英语：Regular str.Expression，在代码中常简写为regex、regexp或RE）使用单个字符串来描述、匹配一系列符合某个句法规则的字符串搜索模式。
 - 正则表达式是由一个字符序列形成的搜索:  ```模式。
 当你在文本中搜索数据时，你可以用搜索模式来描述你要查询的内容。```-正则表达式可以是一简单的字符，或一个更复杂的模式。
 -正则表达式可用于所有文本搜索和文本替换的操作。
