@@ -1,5 +1,4 @@
-package jw.lec05;
-
+package fdao;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.HashMap;
@@ -11,6 +10,7 @@ public class CheckLogin {
 	static{
 		try {
 			Scanner fin = new Scanner(new FileReader("users.txt"));
+
 			while (fin.hasNext()) {
 				String words[] = fin.nextLine().split("\\s+");
 				String name = words[0];
