@@ -1,4 +1,4 @@
-﻿package dp.lec99.singleton.p5;
+﻿
 public class Champion  {
       private  static Champion  uniqueChampion;
       String  message;
