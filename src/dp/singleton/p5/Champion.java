@@ -1,4 +1,5 @@
-﻿
+﻿package dp.singleton.p5;
+
 public class Champion  {
       private  static Champion  uniqueChampion;
       String  message;

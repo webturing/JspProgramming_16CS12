@@ -1,4 +1,4 @@
-﻿package dp.lec12.factory.p2;
+﻿package dp.factory.p2;
 public class Application {
 	public static void main(String args[]) {
 		PenCore penCore;

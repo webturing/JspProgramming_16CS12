@@ -1,4 +1,4 @@
-﻿package dp.lec12.factory.p2;
+﻿package dp.factory.p2;
 public class BlackPenCore extends PenCore {
 	BlackPenCore() {
 		color = "黑色";
