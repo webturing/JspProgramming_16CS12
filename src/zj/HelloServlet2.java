@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Administrator
  *w
  */
-
+@WebServlet("/DemoAction2")
 public class HelloServlet2 extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse respsone)
