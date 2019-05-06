@@ -3,4 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>DemoAction</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>zj.HelloServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+
+    </servlet>
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>DemoAction</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/DemoAction</url-pattern>
+    </servlet-mapping>
 </web-app>
